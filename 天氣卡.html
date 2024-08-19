@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="././css/天氣卡.css">
+</head>
+
+<body>
+    <div class="nav">
+        <div class="text-area animate-animated animate-bounceInLeft">
+            <h2>Weather</h2>
+            <div class="time"></div>
+        </div>
+        <!-- 也可以用程式去生出按鈕(參考卡片) -->
+        <div class="btn-area">
+            <a href="#" class="city-link all-city animate__animated animate__rubberBand hide">全部</a>
+            <a href="#" class="city-link north-city animate__animated animate__rubberBand hide">北部</a>
+            <a href="#" class="city-link mid-city animate__animated animate__rubberBand hide">中部</a>
+            <a href="#" class="city-link south-city animate__animated animate__rubberBand hide">南部</a>
+            <a href="#" class="city-link east-city animate__animated animate__rubberBand hide">東部</a>
+            <a href="#" class="city-link out-city animate__animated animate__rubberBand hide">離島</a>
+            
+            <input type="checkbox" id="ham-btn-switch">
+            <label for="ham-btn-switch" class="ham-btn">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </label>
+            <div class="menu">
+                <button type="button" class="all-city ">全部</button>
+                <button type="button" class="north-city">北部</button>
+                <button type="button" class="mid-city">中部</button>
+                <button type="button" class="south-city">南部</button>
+                <button type="button" class="east-city">東部</button>
+                <button type="button" class="out-city">離島</button>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- <div class="box"></div> -->
+    <div class="card-region">
+        <div class="card"></div>
+    </div>
+
+
+    </script>
+    <script src="./json/天氣卡.js"></script>
+</body>
+
+</html>
